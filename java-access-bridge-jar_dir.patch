@@ -1,0 +1,36 @@
+diff -urN aa/java-access-bridge-1.3.0/bridge/Makefile.am java-access-bridge-1.3.0/bridge/Makefile.am
+--- aa/java-access-bridge-1.3.0/bridge/Makefile.am	2003-08-25 11:17:11.000000000 +0200
++++ java-access-bridge-1.3.0/bridge/Makefile.am	2004-03-11 15:47:05.288164760 +0100
+@@ -7,7 +7,7 @@
+ EXTRA_DIST = $(properties_DATA)
+ 
+ #propertiesdir = $(JAVA_PROPERTIES_HOME)
+-propertiesdir = $(prefix)/share/jar
++propertiesdir = $(prefix)/share/java
+ properties_DATA = accessibility.properties
+ 
+ jar-stamp: ../jar-stamp
+diff -urN aa/java-access-bridge-1.3.0/Makefile.am java-access-bridge-1.3.0/Makefile.am
+--- aa/java-access-bridge-1.3.0/Makefile.am	2003-06-04 11:57:51.000000000 +0200
++++ java-access-bridge-1.3.0/Makefile.am	2004-03-11 15:38:25.282217680 +0100
+@@ -6,7 +6,7 @@
+ 	registry	\
+ 	test
+ 
+-gnome_java_bridgedir = ${prefix}/share/jar
++gnome_java_bridgedir = ${prefix}/share/java
+ gnome_java_bridge_DATA = gnome-java-bridge.jar $(EXTRA_JARFILES)
+ 
+ gnome-java-bridge.jar :
+diff -urN aa/java-access-bridge-1.3.0/test/Makefile.am java-access-bridge-1.3.0/test/Makefile.am
+--- aa/java-access-bridge-1.3.0/test/Makefile.am	2003-08-25 11:17:13.000000000 +0200
++++ java-access-bridge-1.3.0/test/Makefile.am	2004-03-11 15:53:12.308369208 +0100
+@@ -6,7 +6,7 @@
+ 
+ JNAV_JAR=JNav.jar
+ JNAV_MANIFEST=JNav.mf
+-jnav_installdir = ${prefix}/share/jar
++jnav_installdir = ${prefix}/share/java
+ jnav_install_DATA = $(JNAV_JAR)
+ 
+ all-local: $(CLASSES) $(JNAV_JAR)
