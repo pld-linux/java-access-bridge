@@ -1,12 +1,12 @@
 Summary:	Assistive technology for Java Swing applications
 Summary(pl):	Technologia wspomagaj±ca dla aplikacji Java Swing
 Name:		java-access-bridge
-Version:	1.4.2
+Version:	1.4.5
 Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/1.4/%{name}-%{version}.tar.bz2
-# Source0-md5:	80a6cfc17f39f420a6c4e36b8ea5f13d
+# Source0-md5:	55530a282c7b9d2634e72361d789378b
 Patch0:		%{name}-jar_dir.patch
 URL:		http://www.gnome.org/
 BuildRequires:	at-spi-devel >= 1.4.0
