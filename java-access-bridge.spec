@@ -5,7 +5,7 @@ Version:	1.4.5
 Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/1.4/%{name}-%{version}.tar.bz2
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/java-access-bridge/1.4/%{name}-%{version}.tar.bz2
 # Source0-md5:	55530a282c7b9d2634e72361d789378b
 Patch0:		%{name}-jar_dir.patch
 URL:		http://www.gnome.org/
