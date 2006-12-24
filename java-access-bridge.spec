@@ -15,7 +15,8 @@ BuildRequires:	automake
 BuildRequires:	java >= 1.4
 BuildRequires:	jdk >= 1.4
 BuildRequires:	jre
-BuildRequires:	libbonobo-devel >= 2.15.2
+BuildRequires:	libbonobo-devel >= 2.16.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -52,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
-%{_datadir}/java/*
+%{_javadir}/*
