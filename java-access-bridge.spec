@@ -1,5 +1,5 @@
 Summary:	Assistive technology for Java Swing applications
-Summary(pl):	Technologia wspomagaj±ca dla aplikacji Java Swing
+Summary(pl.UTF-8):   Technologia wspomagajÄ…ca dla aplikacji Java Swing
 Name:		java-access-bridge
 Version:	1.6.0
 Release:	1
@@ -25,10 +25,10 @@ the built-in accessibility support in Java Swing apps to the GNOME
 Accessibility framework, specifically the Assistive Technology Service
 Provider Interface (at-spi).
 
-%description -l pl
-Ten pakiet zawiera Java Access Bridge dla GNOME, ³±cz±cy technologiê
-wspieraj±c± w aplikacjach Java Swing z mechanizmami dostêpno¶ci GNOME,
-w szczególno¶ci z at-spi.
+%description -l pl.UTF-8
+Ten pakiet zawiera Java Access Bridge dla GNOME, Å‚Ä…czÄ…cy technologiÄ™
+wspierajÄ…cÄ… w aplikacjach Java Swing z mechanizmami dostÄ™pnoÅ›ci GNOME,
+w szczegÃ³lnoÅ›ci z at-spi.
 
 %prep
 %setup -q
