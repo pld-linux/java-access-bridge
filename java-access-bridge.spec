@@ -1,5 +1,5 @@
 Summary:	Assistive technology for Java Swing applications
-Summary(pl.UTF-8):   Technologia wspomagająca dla aplikacji Java Swing
+Summary(pl.UTF-8):	Technologia wspomagająca dla aplikacji Java Swing
 Name:		java-access-bridge
 Version:	1.6.0
 Release:	1
