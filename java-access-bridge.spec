@@ -5,7 +5,7 @@ Version:	1.20.0
 Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/java-access-bridge/1.18/%{name}-%{version}.tar.bz2
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/java-access-bridge/1.20/%{name}-%{version}.tar.bz2
 # Source0-md5:	638cbaf652ab77dc1fcade3d32271feb
 Patch0:		%{name}-jar_dir.patch
 URL:		http://www.gnome.org/
