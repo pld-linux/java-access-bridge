@@ -1,21 +1,21 @@
 Summary:	Assistive technology for Java Swing applications
 Summary(pl.UTF-8):	Technologia wspomagająca dla aplikacji Java Swing
 Name:		java-access-bridge
-Version:	1.18.0
-Release:	2
+Version:	1.20.0
+Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/java-access-bridge/1.18/%{name}-%{version}.tar.bz2
-# Source0-md5:	9d250af333d03a091be06d2baab8cad4
+# Source0-md5:	638cbaf652ab77dc1fcade3d32271feb
 Patch0:		%{name}-jar_dir.patch
 URL:		http://www.gnome.org/
-BuildRequires:	at-spi-devel >= 1.17.2
+BuildRequires:	at-spi-devel >= 1.20.0
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	java >= 1.4
 BuildRequires:	jdk >= 1.4
 BuildRequires:	jre
-BuildRequires:	libbonobo-devel >= 2.17.92
+BuildRequires:	libbonobo-devel >= 2.20.0
 BuildRequires:	rpmbuild(macros) >= 1.294
 BuildRequires:	xorg-app-xprop
 BuildArch:	noarch
