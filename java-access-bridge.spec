@@ -18,6 +18,7 @@ BuildRequires:	jre
 BuildRequires:	libbonobo-devel >= 2.20.0
 BuildRequires:	rpmbuild(macros) >= 1.294
 BuildRequires:	xorg-app-xprop
+Requires:	jpackage-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -56,4 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
-%{_javadir}/*
+%{_javadir}/*.jar
