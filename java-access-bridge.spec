@@ -4,7 +4,7 @@ Name:		java-access-bridge
 Version:	1.22.2
 Release:	1
 License:	GPL
-Group:		Libraries
+Group:		Libraries/Java
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/java-access-bridge/1.22/%{name}-%{version}.tar.bz2
 # Source0-md5:	e3cef9cc10812320817f21fc34b72c09
 Patch0:		%{name}-jar_dir.patch
