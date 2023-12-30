@@ -10,11 +10,10 @@ diff -urN aa/java-access-bridge-1.3.0/bridge/Makefile.am java-access-bridge-1.3.
  properties_DATA = accessibility.properties
  
  jar-stamp: ../jar-stamp
-diff -urN aa/java-access-bridge-1.3.0/Makefile.am java-access-bridge-1.3.0/Makefile.am
---- aa/java-access-bridge-1.3.0/Makefile.am	2003-06-04 11:57:51.000000000 +0200
-+++ java-access-bridge-1.3.0/Makefile.am	2004-03-11 15:38:25.282217680 +0100
-@@ -6,7 +6,7 @@
- 	registry	\
+--- java-access-bridge-1.26.2/Makefile.am.orig	2023-12-30 15:52:04.947733057 +0100
++++ java-access-bridge-1.26.2/Makefile.am	2023-12-30 15:52:37.267557965 +0100
+@@ -7,7 +7,7 @@ SUBDIRS=idlgen		\
+ 	jni		\
  	test
  
 -gnome_java_bridgedir = ${prefix}/share/jar
