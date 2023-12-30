@@ -50,7 +50,8 @@ w szczególności z at-spi.
 %configure \
 	--disable-static \
 	--with-java-home=%{java_home}
-%{__make}
+
+%{__make} -j1
 
 %install
 rm -rf $RPM_BUILD_ROOT
