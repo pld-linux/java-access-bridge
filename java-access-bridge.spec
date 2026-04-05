@@ -1,11 +1,14 @@
 # requires Java >= 1.5 < 11 (idlj removed in Java 11)
+
+%{?use_default_jdk:%use_default_jdk 8}
+
 %define		use_jdk		openjdk8
 
 Summary:	Assistive technology for Java Swing applications
 Summary(pl.UTF-8):	Technologia wspomagająca dla aplikacji Java Swing
 Name:		java-access-bridge
 Version:	1.26.2
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries/Java
 Source0:	https://download.gnome.org/sources/java-access-bridge/1.26/%{name}-%{version}.tar.bz2
